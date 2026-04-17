@@ -86,7 +86,7 @@ const Header = () => {
               transition={{ type: 'spring', damping: 25, stiffness: 300 }}
             >
               <div className="nav-mobile-header">
-                <img src="/sparklife.png" alt="SparkLeaf" style={{ height: '32px' }} />
+                <img src="/sparklife.png" alt="SparkLeaf" style={{ height: '70px', transform: 'scale(1.2)', transformOrigin: 'left center' }} />
                 <button 
                   onClick={() => setMobileMenuOpen(false)}
                   style={{ background: 'none', border: 'none', cursor: 'pointer' }}
