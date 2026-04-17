@@ -1,0 +1,107 @@
+.footer {
+  background: var(--gradient-dark);
+  color: var(--white);
+  padding-top: var(--space-20);
+  padding-bottom: var(--space-6);
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-10);
+  margin-bottom: var(--space-16);
+}
+
+@media (min-width: 768px) {
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-top {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+}
+
+.footer-brand .footer-logo-wrapper {
+  display: inline-block;
+  background: var(--white);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-4);
+}
+
+.footer-brand p {
+  color: var(--gray-200);
+  max-width: 300px;
+}
+
+.footer-heading {
+  font-size: var(--text-lg);
+  color: var(--white);
+  margin-bottom: var(--space-6);
+  font-weight: 600;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.footer-link {
+  color: var(--gray-200);
+  transition: color var(--transition-fast);
+}
+
+.footer-link:hover {
+  color: var(--flame-400);
+}
+
+.footer-socials {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  transition: all var(--transition-base);
+}
+
+.social-icon:hover {
+  background: var(--flame-500);
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: var(--space-6);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--gray-400);
+  font-size: var(--text-sm);
+}
+
+.footer::after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(232,96,10,0.2) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}

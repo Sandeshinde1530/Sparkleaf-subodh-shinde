@@ -1,0 +1,34 @@
+.inquiry-form-container {
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--gray-100);
+}
+
+@media (max-width: 768px) {
+  .inquiry-form-container {
+    padding: var(--space-5);
+  }
+}
+
+.toast-success {
+  background: var(--leaf-100);
+  border: 1px solid var(--leaf-300);
+  color: var(--leaf-700);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-6);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.toast-error {
+  background: rgba(229, 57, 53, 0.1);
+  border: 1px solid var(--error);
+  color: var(--error);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-6);
+}

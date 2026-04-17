@@ -1,0 +1,131 @@
+/* Design Tokens - SparkLeaf Publication */
+
+:root {
+  /* ================== */
+  /* COLOR PALETTE      */
+  /* ================== */
+  
+  /* Primary - Flame */
+  --flame-100: #FFF3E0;
+  --flame-300: #F9A825;
+  --flame-400: #F2841D;
+  --flame-500: #E8600A;
+  --flame-600: #C43D06;
+
+  /* Secondary - Leaf */
+  --leaf-100: #E8F5E9;
+  --leaf-300: #81C784;
+  --leaf-400: #4CAF50;
+  --leaf-500: #2E9642;
+  --leaf-600: #1B7A2E;
+  --leaf-700: #0D5E1D;
+
+  /* Accents - Spark */
+  --spark-gold: #FFB300;
+  --spark-glow: #FFCA28;
+
+  /* Neutrals */
+  --white: #FFFFFF;
+  --gray-50: #FAFAFA;
+  --gray-100: #F5F5F5;
+  --gray-200: #EEEEEE;
+  --gray-400: #9E9E9E;
+  --gray-600: #616161;
+  --gray-800: #333333;
+  --gray-900: #1A1A1A;
+
+  /* Semantics */
+  --success: #4CAF50;
+  --warning: #FF9800;
+  --error: #E53935;
+  --info: #2196F3;
+
+  /* ================== */
+  /* GRADIENTS          */
+  /* ================== */
+  
+  /* Background gradients */
+  --gradient-hero: linear-gradient(135deg, #E8600A 0%, #F2841D 30%, #F9A825 50%, #4CAF50 75%, #1B7A2E 100%);
+  --gradient-dark: linear-gradient(160deg, #0D5E1D 0%, #1A1A1A 40%, #1A1A1A 100%);
+  
+  /* Button gradients */
+  --gradient-primary: linear-gradient(135deg, #E8600A 0%, #F2841D 100%);
+  --gradient-secondary: linear-gradient(135deg, #1B7A2E 0%, #2E9642 100%);
+  
+  /* Effects */
+  --gradient-shimmer: linear-gradient(90deg, transparent 0%, rgba(255,179,0,0.08) 50%, transparent 100%);
+
+  /* ================== */
+  /* TYPOGRAPHY         */
+  /* ================== */
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Poppins', 'Inter', sans-serif;
+
+  /* Font sizes (scale) */
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.875rem;   /* 14px */
+  --text-base: 1rem;     /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.25rem;    /* 20px */
+  --text-2xl: 1.5rem;    /* 24px */
+  --text-3xl: 1.875rem;  /* 30px */
+  --text-4xl: 2.25rem;   /* 36px */
+  --text-5xl: 3rem;      /* 48px */
+  --text-6xl: 3.75rem;   /* 60px */
+
+  /* ================== */
+  /* SPACING            */
+  /* ================== */
+  /* 4px base unit */
+  --space-0: 0;
+  --space-1: 0.25rem;    /* 4px */
+  --space-2: 0.5rem;     /* 8px */
+  --space-3: 0.75rem;    /* 12px */
+  --space-4: 1rem;       /* 16px */
+  --space-5: 1.25rem;    /* 20px */
+  --space-6: 1.5rem;     /* 24px */
+  --space-8: 2rem;       /* 32px */
+  --space-10: 2.5rem;    /* 40px */
+  --space-12: 3rem;      /* 48px */
+  --space-16: 4rem;      /* 64px */
+  --space-20: 5rem;      /* 80px */
+  --space-24: 6rem;      /* 96px */
+
+  /* ================== */
+  /* RADII              */
+  /* ================== */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-full: 9999px;
+
+  /* ================== */
+  /* SHADOWS            */
+  /* ================== */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-glow: 0 0 15px rgba(232, 96, 10, 0.3); /* flame glow */
+  --shadow-sparkle: 0 0 20px rgba(255, 179, 0, 0.4); /* gold glow */
+  
+  /* ================== */
+  /* ELEVATIONS         */
+  /* ================== */
+  --z-negative: -1;
+  --z-base: 0;
+  --z-dropdown: 50;
+  --z-sticky: 100;
+  --z-overlay: 900;
+  --z-modal: 1000;
+  --z-popover: 1100;
+
+  /* ================== */
+  /* TRANSITIONS        */
+  /* ================== */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
