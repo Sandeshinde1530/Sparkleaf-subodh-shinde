@@ -1,160 +1,95 @@
 export const plans = [
   {
-    id: 'bronze',
-    name: 'Bronze',
-    tagline: 'Start Your Journey',
-    description: 'Perfect for first-time authors with essential publishing needs',
-    price: { amount: 14999, currency: 'INR', period: 'one-time' },
-    featured: false,
-    color: '#CD7F32',
-    headerGradient: 'linear-gradient(135deg, #CD7F32, #A0522D)',
-    icon: 'BookOpen',
-    cta: { text: 'Get Started', link: '/contact?plan=bronze' },
-    authorCopies: 5,
-    highlights: ['ISBN Allocation', 'India Distribution', 'Dedicated Manager'],
-    features: {
-      cover_design: 'Basic',
-      isbn: true,
-      india_dist: true,
-      author_copies: 5,
-      profit: '100%',
+    id: 'basic',
+    name: 'BASIC PACKAGE',
+    price: { amount: 5999, currency: 'INR', display: '₹5,999' },
+    color: '#4CAF50', // Green
+    headerGradient: 'linear-gradient(90deg, #66BB6A, #388E3C)',
+    features: [
+      { text: 'ISBN Registration', type: 'isbn' },
+      { text: 'Basic Cover Design', type: 'design' },
+      { text: 'Formatting', type: 'format' },
+      { text: 'Amazon Listing', type: 'amazon' }
+    ],
+    footer: {
+      title: "1 AUTHOR'S COPY INCLUDED",
+      subtitle: "Remaining copies managed by\nSparkLeaf Publications for distribution."
     }
   },
   {
-    id: 'silver',
-    name: 'Silver',
-    tagline: 'Professional Touch',
-    description: 'Enhanced design and wider reach for your book',
-    price: { amount: 24999, currency: 'INR', period: 'one-time' },
-    featured: false,
-    color: '#C0C0C0',
-    headerGradient: 'linear-gradient(135deg, #C0C0C0, #808080)',
-    icon: 'BookUp',
-    cta: { text: 'Get Started', link: '/contact?plan=silver' },
-    authorCopies: 10,
-    highlights: ['Custom Cover Design', 'Global Distribution', 'Social Media Setup'],
-    features: {
-      cover_design: 'Custom',
-      isbn: true,
-      india_dist: true,
-      global_dist: true,
-      author_copies: 10,
-      profit: '100%',
+    id: 'standard',
+    name: 'STANDARD PACKAGE',
+    price: { amount: 14999, currency: 'INR', display: '₹14,999' },
+    color: '#1E88E5', // Blue
+    headerGradient: 'linear-gradient(90deg, #42A5F5, #1565C0)',
+    isPopular: true,
+    features: [
+      { text: 'ISBN Registration', type: 'isbn' },
+      { text: 'Premium Cover Design', type: 'design' },
+      { text: 'Formatting', type: 'format' },
+      { text: 'Amazon Listing', type: 'amazon' },
+      { text: 'Author Support', type: 'support' }
+    ],
+    footer: {
+      title: "5 AUTHOR COPIES INCLUDED",
+      subtitle: "Remaining copies managed by\nSparkLeaf Publications for distribution."
     }
   },
   {
-    id: 'gold',
-    name: 'Gold',
-    tagline: 'Most Popular',
-    description: 'Comprehensive publishing and initial marketing push',
-    price: { amount: 39999, currency: 'INR', period: 'one-time' },
-    featured: true,
-    color: '#FFD700',
-    headerGradient: 'linear-gradient(135deg, #FFD700, #DAA520)',
-    icon: 'Award',
-    cta: { text: 'Get Started', link: '/contact?plan=gold' },
-    authorCopies: 20,
-    highlights: ['Premium Layout', 'Email Marketing', 'Kindle Promotions'],
-    features: {
-      cover_design: 'Premium',
-      isbn: true,
-      india_dist: true,
-      global_dist: true,
-      author_copies: 20,
-      profit: '100%',
-      marketing: 'Basic Campaign'
+    id: 'advanced',
+    name: 'ADVANCED PACKAGE',
+    price: { amount: 19999, currency: 'INR', display: '₹19,999' },
+    color: '#673AB7', // Purple
+    headerGradient: 'linear-gradient(90deg, #9575CD, #512DA8)',
+    features: [
+      { text: 'ISBN Registration', type: 'isbn' },
+      { text: 'Premium Cover Design', type: 'design' },
+      { text: 'Formatting', type: 'format' },
+      { text: 'Amazon Listing', type: 'amazon' },
+      { text: 'Priority Support', type: 'support' }
+    ],
+    footer: {
+      title: "5 AUTHOR COPIES INCLUDED",
+      subtitle: "Additional printed copies included.\nRemaining copies managed by\nSparkLeaf Publications for distribution."
     }
   },
   {
-    id: 'diamond',
-    name: 'Diamond',
-    tagline: 'Elite Publishing',
-    description: 'Extensive marketing and premium physical copies',
-    price: { amount: 59999, currency: 'INR', period: 'one-time' },
-    featured: false,
-    color: '#B9F2FF',
-    headerGradient: 'linear-gradient(135deg, #B9F2FF, #87CEEB)',
-    icon: 'Gem',
-    cta: { text: 'Get Started', link: '/contact?plan=diamond' },
-    authorCopies: 30,
-    highlights: ['Advanced Marketing', 'Video Trailer', 'Author Website'],
-    features: {
-      cover_design: 'Premium',
-      isbn: true,
-      india_dist: true,
-      global_dist: true,
-      author_copies: 30,
-      profit: '100%',
-      marketing: 'Advanced Campaign'
-    }
-  },
-  {
-    id: 'platinum',
-    name: 'Platinum',
-    tagline: 'Best Seller Track',
-    description: 'Full-scale publishing with aggressive promotional strategy',
-    price: { amount: 99999, currency: 'INR', period: 'one-time' },
-    featured: false,
-    color: '#E5E5E5',
-    headerGradient: 'linear-gradient(135deg, #E5E5E5, #B0C4DE)',
-    icon: 'Crown',
-    cta: { text: 'Get Started', link: '/contact?plan=platinum' },
-    authorCopies: 50,
-    highlights: ['PR Campaign', 'Prime Placement', 'Audiobook Creation'],
-    features: {
-      cover_design: 'Premium Illustrated',
-      isbn: true,
-      india_dist: true,
-      global_dist: true,
-      author_copies: 50,
-      profit: '100%',
-      marketing: 'Aggressive PR'
-    }
-  },
-  {
-    id: 'rhodium',
-    name: 'Rhodium',
-    tagline: 'Luxury Class',
-    description: 'Top-tier production and offline marketing events',
-    price: { amount: 149999, currency: 'INR', period: 'one-time' },
-    featured: false,
-    color: '#2C2C2C',
-    headerGradient: 'linear-gradient(135deg, #444, #111)',
-    icon: 'Star',
-    cta: { text: 'Get Started', link: '/contact?plan=rhodium' },
-    authorCopies: 100,
-    highlights: ['Book Fair Showcase', 'Offline Distribution', 'Influencer Marketing'],
-    features: {
-      cover_design: 'Premium Illustrated',
-      isbn: true,
-      india_dist: true,
-      global_dist: true,
-      author_copies: 100,
-      profit: '100%',
-      marketing: 'Offline + Online Reach'
-    }
-  },
-  {
-    id: 'titanium',
-    name: 'Titanium',
-    tagline: 'The Ultimate',
-    description: 'Uncompromised quality and unlimited promotional reach',
-    price: { amount: 249999, currency: 'INR', period: 'one-time' },
-    featured: false,
-    color: '#1A1A1A',
-    headerGradient: 'linear-gradient(135deg, #1A1A1A, #2C3E50)',
-    icon: 'Zap',
-    cta: { text: 'Get Started', link: '/contact?plan=titanium' },
-    authorCopies: 200,
-    highlights: ['Hollywood Pitching', 'Bestseller Guarantee Program', 'Dedicated Agent'],
-    features: {
-      cover_design: 'Premium Illustrated',
-      isbn: true,
-      india_dist: true,
-      global_dist: true,
-      author_copies: 200,
-      profit: '100%',
-      marketing: 'Global Omnichannel'
+    id: 'premium',
+    name: 'PREMIUM PACKAGE',
+    price: { amount: 24999, currency: 'INR', display: '₹24,999' },
+    color: '#E65100', // Orange
+    headerGradient: 'linear-gradient(90deg, #FF9800, #E65100)',
+    features: [
+      { text: 'ISBN Registration', type: 'isbn' },
+      { text: 'Custom Cover Design', type: 'design' },
+      { text: 'Editing + Formatting', type: 'format' },
+      { text: 'Amazon Listing', type: 'amazon' },
+      { text: 'Priority Publishing', type: 'star' },
+      { text: 'Basic Marketing Support', type: 'marketing' }
+    ],
+    footer: {
+      title: "5 AUTHOR COPIES INCLUDED",
+      subtitle: "Remaining copies managed by\nSparkLeaf Publications for distribution."
     }
   }
 ];
+
+export const ghostwritingPlan = {
+  id: 'ghostwriting',
+  name: '+1 GHOSTWRITING PACKAGE',
+  price: { display: '₹29,999 - ₹59,999' },
+  description: 'For individuals who have ideas but need professional writing support.',
+  color: '#2E7D32',
+  features: [
+    { text: 'Complete Book Writing (based on your idea)' },
+    { text: 'Research & Structuring' },
+    { text: 'Editing & Formatting' },
+    { text: 'Custom Cover Design' },
+    { text: 'ISBN Registration' },
+    { text: 'Amazon Publishing' }
+  ],
+  footer: {
+    title: "5 AUTHOR COPIES INCLUDED",
+    subtitle: "Remaining copies managed\nby SparkLeaf Publications\nfor distribution."
+  }
+};

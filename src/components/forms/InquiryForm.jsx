@@ -50,12 +50,22 @@ const InquiryForm = () => {
     };
 
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      console.log('Form Submitted:', cleanData);
+      const res = await fetch(import.meta.env.VITE_GOOGLE_SHEETS_API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(cleanData),
+      });
+
+      const result = await res.json();
+
+      if (!res.ok || !result.success) {
+        throw new Error(result.error || 'Submission failed');
+      }
+
       setSuccess(true);
     } catch (err) {
       setApiError('Something went wrong. Please try again later.');
+      console.error('Form submission error:', err);
     } finally {
       setIsSubmitting(false);
     }

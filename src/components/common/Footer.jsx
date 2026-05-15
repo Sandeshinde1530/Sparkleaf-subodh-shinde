@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Globe } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -31,17 +31,16 @@ const Footer = () => {
               <li><Link to="/about" className="footer-link">About Us</Link></li>
               <li><Link to="/contact" className="footer-link">Contact</Link></li>
               <li><Link to="/privacy" className="footer-link">Privacy Policy</Link></li>
-              <li><Link to="/terms" className="footer-link">Terms of Service</Link></li>
+              <li><Link to="/terms" className="footer-link">Terms & Conditions</Link></li>
+              <li><Link to="/terms#publishing-agreement" className="footer-link">Publishing Agreement</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="footer-heading">Connect</h4>
             <div className="footer-socials">
-              <a href="#" className="social-icon"><Mail size={20} /></a>
-              <a href="#" className="social-icon"><Phone size={20} /></a>
-              <a href="#" className="social-icon"><MapPin size={20} /></a>
-              <a href="#" className="social-icon"><Globe size={20} /></a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support@sparkleafpublication.in" target="_blank" rel="noopener noreferrer" className="social-icon" title="Email Us"><Mail size={20} /></a>
+              <a href="https://wa.me/918788446390" target="_blank" rel="noopener noreferrer" className="social-icon" title="WhatsApp Us"><Phone size={20} /></a>
             </div>
           </div>
         </div>

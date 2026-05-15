@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/submit-inquiry",
+      "destination": "https://script.google.com/macros/s/AKfycbxx-OtMrNtzSPP3xMMsIuRV-61u5G17PfLT7D5jH1g6eLvRU07q_lvE8_smPUSbLXDdVw/exec"
+    }
+  ]
+}

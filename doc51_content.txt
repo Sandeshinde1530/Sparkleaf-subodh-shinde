@@ -1,0 +1,56 @@
+﻿=== PARAGRAPHS ===
+[Heading 2] ≡ƒÆ╝ Our Publishing Packages
+[Heading 3] ≡ƒƒó Basic Package ΓÇô Γé╣5,999
+[Normal (Web)] Ideal for first-time authors starting their publishing journey.
+[Normal (Web)] Includes:
+[Normal] ISBN Registration
+[Normal] Basic Cover Design
+[Normal] Book Formatting
+[Normal] Amazon Listing
+[Normal (Web)] Copies:
+[Normal] 1  authorΓÇÖs copyincluded
+[Heading 3] ≡ƒö╡ Standard Package ΓÇô Γé╣14,999 Γ¡É
+[Normal (Web)] Perfect for authors looking for complete publishing support.
+[Normal (Web)] Includes:
+[Normal] ISBN Registration
+[Normal] Premium Cover Design
+[Normal] Book Formatting
+[Normal] Amazon Listing
+[Normal] Author Support
+[Normal (Web)] Copies:
+[Normal] 5 complimentary author copies
+[Heading 3] ≡ƒƒú Advanced Package ΓÇô Γé╣19,999
+[Normal (Web)] Best for authors who want a complete publishing experience with printed books.
+[Normal (Web)] Includes:
+[Normal] ISBN Registration
+[Normal] Premium Cover Design
+[Normal] Book Formatting
+[Normal] Amazon Listing
+[Normal] Priority Support
+[Normal (Web)] Copies:
+[Normal] 5 complimentary author copies
+[Normal] Additional printed copies included
+[Heading 3] ≡ƒö┤ Premium Package ΓÇô Γé╣24,999
+[Normal (Web)] Designed for serious authors seeking high-quality publishing and support.
+[Normal (Web)] Includes:
+[Normal] ISBN Registration
+[Normal] Custom Cover Design
+[Normal] Editing + Formatting
+[Normal] Amazon Listing
+[Normal] Priority Publishing
+[Normal] Basic Marketing Support
+[Normal (Web)] Copies:
+[Normal] 5 complimentary author copies
+[Heading 2] ≡ƒæ╗ Ghostwriting Package ΓÇô Γé╣29,999 ΓÇô Γé╣59,999
+[Normal (Web)] For individuals who have ideas but need professional writing support.
+[Normal (Web)] Includes:
+[Normal] Complete Book Writing (based on your idea)
+[Normal] Research & Structuring
+[Normal] Editing & Formatting
+[Normal] Custom Cover Design
+[Normal] ISBN Registration
+[Normal] Amazon Publishing
+[Normal (Web)] Copies:
+[Normal] 5 complimentary author copies
+
+=== TABLES ===

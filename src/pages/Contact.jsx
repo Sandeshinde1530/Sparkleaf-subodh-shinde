@@ -20,9 +20,8 @@ const Contact = () => {
             <div>
               <h3>Contact Details</h3>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 'var(--space-4)', marginTop: 'var(--space-6)' }}>
-                <li><strong>Email:</strong> publishing@sparkleaf.in</li>
-                <li><strong>Phone:</strong> +91 98765 43210</li>
-                <li><strong>Address:</strong> SparkLeaf Publication, Publishing House Road, Mumbai, India - 400001</li>
+                <li><strong>Email:</strong> support@sparkleafpublication.in</li>
+                <li><strong>Phone:</strong> +91 87884 46390</li>
               </ul>
             </div>
           </div>

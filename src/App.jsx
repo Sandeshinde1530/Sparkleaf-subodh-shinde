@@ -10,6 +10,8 @@ import Features from './pages/Features';
 import Addons from './pages/Addons';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
 
 const PageTransition = ({ children }) => (
   <motion.div
@@ -34,6 +36,8 @@ const AnimatedRoutes = () => {
         <Route path="/addons" element={<PageTransition><Addons /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
         <Route path="/about" element={<PageTransition><About /></PageTransition>} />
+        <Route path="/terms" element={<PageTransition><Terms /></PageTransition>} />
+        <Route path="/privacy" element={<PageTransition><Privacy /></PageTransition>} />
         <Route path="*" element={<PageTransition><Home /></PageTransition>} />
       </Routes>
     </AnimatePresence>
@@ -45,7 +49,7 @@ const App = () => {
     <Router>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Header />
-        <main style={{ flex: 1, paddingTop: '80px' }}>
+        <main style={{ flex: 1, paddingTop: '120px' }}>
           <AnimatedRoutes />
         </main>
         <Footer />

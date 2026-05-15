@@ -1,0 +1,79 @@
+.poster-layout {
+  background: var(--gray-50);
+}
+
+.poster-header {
+  text-align: center;
+  padding: var(--space-12) var(--space-4) var(--space-4);
+  background: var(--white);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.poster-subtitle {
+  color: #2E7D32;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: var(--space-2);
+}
+
+.poster-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--gray-900);
+  margin-bottom: var(--space-4);
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .poster-title {
+    font-size: 3.5rem;
+  }
+}
+
+.poster-tagline {
+  font-size: var(--text-lg);
+  font-style: italic;
+  color: var(--gray-600);
+}
+
+.poster-tagline span {
+  display: inline-block;
+  margin: 0 var(--space-2);
+}
+
+.benefits-bar {
+  background: #2E7D32;
+  color: var(--white);
+  padding: var(--space-12) var(--space-4);
+}
+
+.benefits-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+@media (min-width: 768px) {
+  .benefits-grid {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-4);
+  max-width: 250px;
+}
+
+.benefit-item h3 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
